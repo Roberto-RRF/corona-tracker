@@ -1,0 +1,22 @@
+.card {
+    margin: 10px 2% !important;
+}
+
+.blue {
+    border-bottom: 10px solid rgb(0, 0, 255);
+}
+
+.yellow {
+    border-bottom: 10px solid yellow;
+}
+
+.black {
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+.green {
+    border-bottom: 10px solid green;
+}
+ 
+.orange {
+    border-bottom: 10px solid orange;
+}
