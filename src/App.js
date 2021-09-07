@@ -60,6 +60,8 @@ const App = () => {
   }, []);
   return (
     <div className={styles.container}>
+      
+      <h1 className={styles.title}>Información COVID-19 Yucatan</h1>
       <GroupCards cardInfo={cardInfo} />
       
       <Charts data={dailyData}/>
