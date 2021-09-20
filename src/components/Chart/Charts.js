@@ -1,9 +1,9 @@
 import React from "react";
 
 import Hospitalization from "./Hozpitalization";
-import DailyCases from "./DailyCases";
 import Deaths from "./Deaths";
 import RecoveredAndInfected from "./RecoveredAndInfected";
+import AverageCases from "./AverageCases";
 
 import styles from "./Charts.module.css";
 
@@ -16,8 +16,8 @@ const Charts = (props) => {
           <Hospitalization data={props.data} />
         </div>
         <div>
-          <h5>Nuevos casos confirmados</h5>
-          <DailyCases data={props.data} />
+          <h5>Promedio Ultimos 7 Dias</h5>
+          <AverageCases data={props.data} />
         </div>
         <div>
           <h5>Muertes Diarias</h5>

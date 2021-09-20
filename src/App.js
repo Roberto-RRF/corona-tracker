@@ -14,8 +14,8 @@ const App = () => {
   const fetchData = async () => {
     try {
       const data = await getInfo();
-      await setDailyData(data);
-      await setCardInfo({
+      setDailyData(data);
+      setCardInfo({
         data: [
           {
             title: "Infectados",
